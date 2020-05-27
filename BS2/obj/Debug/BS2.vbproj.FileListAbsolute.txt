@@ -1,0 +1,15 @@
+C:\Users\yuuki\source\repos\BS2\BS2\bin\Debug\BS2.exe.config
+C:\Users\yuuki\source\repos\BS2\BS2\bin\Debug\BS2.exe
+C:\Users\yuuki\source\repos\BS2\BS2\bin\Debug\BS2.pdb
+C:\Users\yuuki\source\repos\BS2\BS2\bin\Debug\BS2.xml
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.vbprojAssemblyReference.cache
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.Form1.resources
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.Resources.resources
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.vbproj.GenerateResource.cache
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.vbproj.CoreCompileInputs.cache
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.exe
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.xml
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.pdb
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.Form2.resources
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.Form3.resources
+C:\Users\yuuki\source\repos\BS2\BS2\obj\Debug\BS2.Form4.resources
