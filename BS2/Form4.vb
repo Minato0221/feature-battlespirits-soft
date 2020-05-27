@@ -65,7 +65,6 @@
                 spirit_status_info.core = spirit_core
                 Debug.WriteLine("form:" & spirit_status_info.place & "," & spirit_status_info.status & "," & spirit_status_info.core)
                 Form1.spirit_first_status.add(spirit_status_info)
-
                 Me.Close()
             End If
         End If
@@ -100,4 +99,8 @@
 
         Return spirit_name
     End Function
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+
+    End Sub
 End Class

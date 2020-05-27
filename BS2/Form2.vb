@@ -23,26 +23,22 @@
                 Field_action.Items.Add("バウンス(手元)")
                 before_core.Items.Add("このカード")
                 after_core.Items.Add("このカード")
-                Debug.WriteLine("TEST")
             End If
 
             For i = 0 To Form1.spirit_list.count - 1
-                    If Form1.spirit_list(i).name = Form1.hash_spirit_list(Form1.ListBox1.SelectedItem) Then
-                        PictureBox1.ImageLocation = Form1.spirit_list(i).path
-                        PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
-                    Not_selected.Visible = True
+                If Form1.spirit_list(i).name = Form1.hash_spirit_list(Form1.ListBox1.SelectedItem) Then
+                    PictureBox1.ImageLocation = Form1.spirit_list(i).path
+                    PictureBox1.SizeMode = PictureBoxSizeMode.Zoom
+                    Not_selected.Visible = False
                 Else
-                        split_list.Items.Add(Form1.spirit_list(i).name)
-                    End If
-                Next
-            End If
+                    split_list.Items.Add(Form1.spirit_list(i).name)
+                End If
+            Next
+        End If
     End Sub
 
     Sub last_Load() Handles MyBase.Closed
         Form1.Enabled = True
-    End Sub
-    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Not_selected.Click
-
     End Sub
 
     Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
@@ -82,16 +78,16 @@
 
     Function card_place_is_feild(card_name)
         Dim card_place = False
-        For i = 0 To Form1.card_action.count - 1
-            If Form1.card_action.name Is card_name Then
-                For j = 0 To Form1.spirit_first_status.count - 1
-                    If Form1.spirit_first_status.name Is card_name And Form1.spirit_first_status = 4 Then
-                        card_place = True
-                    End If
-                Next
+        card_name = Form1.hash_spirit_list(card_name)
+        Debug.WriteLine("--------------------card_place")
+        Debug.WriteLine(card_name)
+        For j = 0 To Form1.spirit_first_status.count - 1
+            Debug.WriteLine(Form1.spirit_first_status(j).name & "," & Form1.spirit_first_status(j).place & ":" & card_name)
+            If Form1.spirit_first_status(j).name Is card_name And Form1.spirit_first_status(j).place = 4 Then
+                card_place = True
             End If
         Next
-
+        Debug.WriteLine("end--------------------card_place")
         Return card_place
     End Function
 End Class

@@ -65,9 +65,9 @@ Partial Class Form2
         Me.Not_selected.Font = New System.Drawing.Font("MS UI Gothic", 25.0!)
         Me.Not_selected.Location = New System.Drawing.Point(43, 198)
         Me.Not_selected.Name = "Not_selected"
-        Me.Not_selected.Size = New System.Drawing.Size(196, 34)
+        Me.Not_selected.Size = New System.Drawing.Size(191, 34)
         Me.Not_selected.TabIndex = 14
-        Me.Not_selected.Text = "Not selected"
+        Me.Not_selected.Text = "not selected"
         '
         'Label2
         '
